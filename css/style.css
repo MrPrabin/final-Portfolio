@@ -1,0 +1,301 @@
+
+*{margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;  
+  color: #2bd1d1;  
+}
+
+body{
+    background-color: black; 
+    color: #00FFFF;    
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+h4{
+    color: white;
+}
+
+h3{
+    color: #2bd1d1;
+}
+
+#content{
+   
+    margin-top: 100px;
+}
+
+#experience{
+    margin-top: 200PX;
+
+}
+
+#qualification{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#projects{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+ 
+#projects .container .card {
+    height: 300px;
+}
+
+#skills{
+    margin-top: 150px;
+}
+
+.row .card{
+    height: 150px;
+} 
+
+
+.navbar-nav .nav-link:hover{
+    color: #00FFFF;  
+}
+
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 2px solid #2bd1d1 ;
+    padding: 16px;
+}
+
+.inner{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 2px solid #2bd1d1 ;
+}
+
+.navbar-nav{
+    text-transform: uppercase;
+}
+
+.shadow-effect{
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover{
+    box-shadow: -8px 8px 0 0 #2bd1d1;
+}
+
+
+.bg-base{
+    background-color: rgb(7, 7, 7);
+}
+
+.quali {   
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.map i{
+    font-size: 30px;  
+    color: aliceblue;
+}
+
+
+.social i{
+    color: #00FFFF;  
+    border-radius: 20%;
+    backdrop-filter: brightness(88%);
+    box-shadow: 0 0 20px transparent;
+    cursor: pointer;
+    transition: all .50s ease;
+}  
+
+.social i:hover{
+    transform: scale(1.6);
+    box-shadow: 0 0 20px;
+    color: #00FFFF; 
+}
+
+
+
+.name{
+    color: #00FFFF;
+    font-weight: bold;
+}
+
+.web{
+    color: #1ED706;
+    font-weight: bold;
+}
+
+.timeline{
+    margin: 5em auto;
+    max-width: 34.15em;
+}
+
+.progress{
+    height: 40px;    
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+.best-food{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.respo{
+    margin-left: 50px;
+    
+   
+}
+
+.mondrain{
+    margin-left: 180px;
+}
+
+
+
+.checkpoint{
+    max-width: 34em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;    
+}
+
+.checkpoint div{    
+    border-radius: 1em;
+    background-color: rgb(7, 7, 7);
+    padding: 1.5em;
+}
+
+.checkpoint:nth-child(odd){
+    border-left: 3px solid #2bd1d1;
+    padding-left: 3em;
+    transform: translateX(17em);
+}
+
+.checkpoint:nth-child(even){
+    border-right: 3px solid  #2bd1d1;
+    padding-right: 3em;
+    transform: translateX(-16.8em);
+}
+
+.checkpoint:nth-child(odd)::before,
+.checkpoint:nth-child(even)::before{
+    content:'';
+    background: #2bd1d1;
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkpoint:nth-child(odd)::before {
+    left: 0;
+}
+
+.checkpoint:nth-child(even)::before {
+    right: 0;
+}
+
+
+.checkpoint:nth-child(odd) div::before,
+.checkpoint:nth-child(even) div::before{
+    content: '';
+    background: #2bd1d1;
+    box-shadow: 0 0 0.5em #2bd1d1;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.checkpoint:nth-child(odd) div::before{
+    left: -0.6em;    
+}
+
+.checkpoint:nth-child(even) div::before{
+    right: -0.6em;    
+}
+
+.checkpoint div{
+    transition: all 0.5s;
+}
+
+.checkpoint div:hover{
+    box-shadow: -8px 8px 0 0 #2bd1d1;
+}
+
+#projects .card-cover:hover{
+    transform: scale(1.1);
+}
+
+#footer{
+    background:  #434343;
+    background-size: 180% 180%;        
+}
+
+.toparrow{
+    position: fixed;    
+    bottom: 40px;
+    right: 50px;
+    font-size: 30px;   
+}
+
+
+
+
+
+
+
+
+@media(max-width:1150px) {
+
+    .experience{
+        margin-top: 2em;
+    }
+
+    #projects .card-cover:hover{
+        transform: scale(1);        
+    }    
+
+
+    .timeline{
+        width: 80vw;        
+    }
+    .timeline .checkpoint{
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;        
+    }
+    .timeline .checkpoint::before{
+        width: 3px;
+        height: 4em;
+        top: -2em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .timeline .checkpoint div::before{
+        top: -0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }  
+    
+}
+
+
+
+
+
+
+
