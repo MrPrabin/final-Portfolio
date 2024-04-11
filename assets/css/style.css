@@ -25,19 +25,15 @@ h3{
     color: #2bd1d1;
 }
 
-#content{
-   
-    margin-top: 100px;
-}
 
 #experience{
-    margin-top: 200PX;
+    margin-top: 50PX;
 
 }
 
 #qualification{
-    margin-top: 200px;
-    margin-bottom: 100px;
+    margin-top: 80px; 
+    padding-top: 10px;  
 }
 
 #projects{
@@ -109,6 +105,31 @@ h3{
     color: aliceblue;
 }
 
+#content img{
+    width: 2000px;  
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#content .container{  
+    height: 900px;
+    margin-top: 20px;
+    padding-top: 0px;
+}
+
+#content .container .row{
+    margin-top: 0px;
+    padding-top: 0px;    
+}
+
+ 
+#content .container img{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+
+
 
 .social i{
     color: #00FFFF;  
@@ -124,7 +145,6 @@ h3{
     box-shadow: 0 0 20px;
     color: #00FFFF; 
 }
-
 
 
 .name{
@@ -243,9 +263,27 @@ h3{
     transform: scale(1.1);
 }
 
-#footer{
+
+
+#hire-me .form-controls{
+    height:200px;
+    width: 100%; 
+    background-color: #252525;
+    color: white;
+  }
+
+
+
+
+
+
+
+        
+
+footer{
+    text-align: center; 
     background:  #434343;
-    background-size: 180% 180%;        
+    justify-content: center;  
 }
 
 .toparrow{
@@ -294,7 +332,8 @@ h3{
         top: -0.5em;
         left: 50%;
         transform: translateX(-50%);
-    }  
+    } 
+
     
 }
 
