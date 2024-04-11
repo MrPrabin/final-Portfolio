@@ -91,12 +91,17 @@ h3{
 
 
 .bg-base{
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(32, 31, 31);
 }
 
 .quali {   
     padding-top: 20px;
     padding-bottom: 20px; 
+}
+
+#qualification{
+    background-color: rgb(7, 7, 7);
+    padding-top: 15px;
 }
 
 .map i{
@@ -169,7 +174,7 @@ h3{
 
 .checkpoint div{    
     border-radius: 1em;
-    background-color: rgb(7, 7, 7);
+    background-color:  rgb(32, 31, 31);
     padding: 1.5em;
 }
 
