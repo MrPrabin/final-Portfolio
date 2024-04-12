@@ -334,6 +334,27 @@ footer{
         transform: translateX(-50%);
     } 
 
+    #content .social i{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       
+
+    }
+
+    #experience {
+        margin-top: 200px;        
+    }
+
+    #content a{
+        text-decoration: none;        
+    }
+
+    
+    
+
+
+
+
     
 }
 
